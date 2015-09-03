@@ -6,7 +6,7 @@
  * @author Jmkim dot com
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  * @package MediaWikiExtensions
- * @version 0.1
+ * @version 0.2
  */
 $wgExtensionFunctions[] = 'MagnetLinksExtension';
  
@@ -34,4 +34,4 @@ $wgExtensionCredits['parserhook'][] = array(
 	'author' => 'Jmkim dot com',
 	'description' => 'render links to magnet URI between &lt;magnet&gt; and &lt;/magnet&gt;',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:MagnetLinks',
-	'version' => '0.1.0');
+	'version' => '0.2');
