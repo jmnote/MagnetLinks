@@ -24,7 +24,7 @@ function render_MagnetLink($input, $argv) {
 		$uri = htmlentities(trim(substr($input, 0, $pos)));
 		$linktext = htmlentities(trim(substr($input, $pos)), ENT_COMPAT, 'UTF-8');
 	}
-	$icon_img = 'http://upload.wikimedia.org/wikipedia/commons/c/c2/Magnet-icon.gif';
+	$icon_img = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAElBMVEVjb2wAAABjY2Pe3t7/AAD/CAjCuNwwAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAABDSURBVAjXYxAUFGQAYWFjQ6xYxFWIQTE0EEgLMDBio12g8i6OgqJAWsXFxSU0NIhBEUwLMTAJAmlBBQYGJkVBIQUGAAw7D0VqA9flAAAAAElFTkSuQmCC';
 	$link_color = '#0088a4';
 	return "<img src=\"$icon_img\"/> <a style=\"color:$link_color\" href=\"$uri\">$linktext</a>";
 }
