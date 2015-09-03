@@ -35,4 +35,3 @@ $wgExtensionCredits['parserhook'][] = array(
 	'description' => 'render links to magnet URI between &lt;magnet&gt; and &lt;/magnet&gt;',
 	'url' => 'http://www.mediawiki.org/wiki/Extension:MagnetLinks',
 	'version' => '0.1.0');
-?>
